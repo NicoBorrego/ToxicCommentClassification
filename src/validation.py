@@ -23,13 +23,12 @@ sample_df = sample_df.sample(frac=1, random_state=42).reset_index(drop=True)
 for index, row in sample_df.iterrows():
     prediction = cls.predict(row['tweet'])
     sample_df.at[index, 'toxicity_classification'] = prediction["is_toxic"]
-    sample_df.at[index, 'confidence'] = prediction["confidence"]
 
 print("Toxicity Distribution:\n")
 print(sample_df['toxicity_classification'].value_counts())
 print("-" * 50)
 
 print("\nClassification examples:\n")
-print(sample_df[['tweet', 'toxicity_classification','confidence']].sample(10, random_state=42))
+print(sample_df[['tweet', 'toxicity_classification']].sample(10, random_state=42))
 print("-" * 50)
 
