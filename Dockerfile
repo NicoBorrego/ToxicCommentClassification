@@ -10,4 +10,4 @@ COPY src/ ./src/
 
 EXPOSE 8000
 
-CMD ["sh", "-c", "uvicorn src.app:app --host --port ${PORT:-8000} --reload"]
+CMD ["uvicorn", "src.app:app", "--host", "--port", "10000"]
