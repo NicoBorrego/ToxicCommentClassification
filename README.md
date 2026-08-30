@@ -18,6 +18,7 @@ Once I treated the NaN values, I made a sample of 100 toxic and 100 non-toxic tw
 
 Toxicity Distribution:
 
+```
 toxicity_classification
 False    120
 True      80
@@ -34,5 +35,5 @@ Name: count, dtype: int64
 170  I tell bitches I got that I.T.S ( IKE TURNER S...                    True      0.9311
 174  #theshallows weak attempt to cash in on the ja...                   False      0.9311
 45   wonderful dinner â ¤ï¸  #dinner #yum #thegaffo...                   False      0.9311
-
+```
 There are some toxic tweets in the dataset that are not scored as toxic by this model cause it could contains numbers as other simbols. 
