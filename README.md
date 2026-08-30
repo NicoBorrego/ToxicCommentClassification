@@ -6,7 +6,7 @@ This repo is focused on learning how to develop, optimize and evaluate a supervi
 
 Once the model is selected, lets proceed with an external validation with [Youtube Comments Dataset](https://www.kaggle.com/datasets/mehtaakshat/youtube-comments-data-sentiment-toxicity-spam) from Kaggle.
 
-Also, you can try the model on my own [portfolio](https://bold-block-32cb.nicolasborregogonzalez.workers.dev/)
+Also, you can try the model on my own [portfolio](https://bold-block-32cb.nicolasborregogonzalez.workers.dev/), with an API deployed with Docker on Render.
 
 ## Selected model
 
@@ -14,3 +14,8 @@ After trying some classification model as logistic regresion, random forests, et
 
 ## External validation
 
+Once I treated the NaN values, 
+
+```python
+
+```
