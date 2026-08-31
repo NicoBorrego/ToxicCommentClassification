@@ -16,7 +16,7 @@ The exploratory/model selection was performed in the notebook, the selected one 
 
 ## External validation (validation.py)
 
-Once I treated the NaN values, I made a sample of 100 toxic and 100 non-toxic tweets, but the model predicted 120 non-toxic and 80 toxic.
+Once I treated the NaN values, I made a sample of 100 toxic and 100 non-toxic tweets, but the model predicted 120 non-toxic and 80 toxic, this may be related to differences in vocabulary, writing style, formatting or other characteristics between training and external datasets.
 
 Toxicity Distribution:
 
