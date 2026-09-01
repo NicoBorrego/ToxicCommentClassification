@@ -6,7 +6,7 @@ This repo is focused on learning how to develop, optimize and evaluate a supervi
 
 In this version, toxicity is defined as insulting language. It is not intended to detect every form of offensive comunication.
 
-Once the model is selected, lets proceed with an external validation with [Tweets Dataset](https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset) from Kaggle.
+Once the model is selected, I proceeded with an external validation with [Tweets Dataset](https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset) from Kaggle.
 
 ## Selected model
 
