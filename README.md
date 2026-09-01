@@ -8,8 +8,6 @@ In this version, toxicity is defined as insulting language. It is not intended t
 
 Once the model is selected, lets proceed with an external validation with [Tweets Dataset](https://www.kaggle.com/datasets/ashwiniyer176/toxic-tweets-dataset) from Kaggle.
 
-Also, you can try the model on my own [portfolio](https://bold-block-32cb.nicolasborregogonzalez.workers.dev/), with an API deployed with Docker on Render.
-
 ## Selected model
 
 The exploratory/model selection was performed in the notebook, the selected one is LinearSVC from SVM, trained in train.py and exported for inference.
@@ -38,3 +36,9 @@ Name: count, dtype: int64
 174  #theshallows weak attempt to cash in on the ja...                   False 
 45   wonderful dinner â ¤ï¸  #dinner #yum #thegaffo...                   False 
 ``` 
+
+## Deployment
+
+The application is deployed and accesible through a web interface hosted on Cloudfare. The backend is built with FastAPI, containerized using Docker and deployed on Render.
+
+[Live demo](https://bold-block-32cb.nicolasborregogonzalez.workers.dev/)
