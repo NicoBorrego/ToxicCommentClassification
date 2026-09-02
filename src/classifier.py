@@ -6,7 +6,7 @@ class Classifier:
         self.__path = "toxic_linear_svc.joblib"
         self.__package = joblib.load(self.__path)
         self.__pipeline = self.__package["pipeline"]
-        self.__f1_macro = self.__package["f1_macro"]
+
     def __predict__(self, x) -> dict:
         return {
             "is_toxic": bool(self.__pipeline.predict([x])[0])
